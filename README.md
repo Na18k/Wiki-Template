@@ -1,6 +1,8 @@
 # Wiki-Template
 Um template simples de wiki, quem sabe usada no futuro.
 
+## ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Na18k/Wiki-Template&title=Visitantes)
+
 
 > **Página principal:**
 > 
