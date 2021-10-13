@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<title>Wiki | Na18k</title>
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/style-default.css">
+
+	<link href="css/fontawesome/css/all.css" rel="stylesheet">
+	<script type="text/javascript" src="js/cods.js" defer></script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="index.html" class="home">home()</a>
+			<ul>
+				<li>
+					<a href="https://github.com/Na18k/Wiki">font()</a>
+				</li>
+				<li>
+					<a href="https://github.com/Na18k/Wiki-Template/archive/refs/heads/main.zip">download()</a>
+				</li>
+				<li>
+					<a href="https://github.com/Na18k">mais()</a>
+				</li>
+				<li>
+					<a href="funcionalidades.html">funcionalidades()</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="navegar">
+			<nav class="navegar">
+				<ul>
+					<li>
+						<a href="index.html">Início</a>
+					</li>
+					<li>
+						<a href="#ideia">Ideia Principal</a>
+					</li>
+					<li>
+						<a href="#scroll">Scroll</a>
+					</li>
+					<li>
+						<a href="#codigos">Códigos</a>
+					</li>
+				</ul>
+			</nav>
+		</section>
+		<span class="line-separar"></span>
+
+		<section class="principal">
+			<h3 class="tituloDestaque" id="inicio">Padão</h3>
+			<p class="subtitulo">Esse projeto é um tamplate de wiki criado por Na18k :)</p>
+
+			<!-- 
+				===== KIT DE ELEMENTOS PARA MODIFICAR A PÁGINA =====
+
+			<hr class="separador" id="(NOME DA SEÇÃO OBS:ADICIONAR EM .NAVEGAR)">
+			<h4 >TITULO</h4>
+			<p class="texto">O TEXTO VAI AQUI</p> 
+
+			===== PARA ADICIONAR CÓDIGOS USE: =====
+
+			<code class="codigo scrollbar">
+				<pre id="cod + NÚMERO DO CÓDIGO EM JS/CODS.JS"></pre>
+			</code>
+				EXEMPO:
+					id="cod0"
+					id="cod2"
+					id="cod3"
+					id="cod4"
+					id="cod5"
+			-->
+
+			<hr class="separador" id="ideia">
+			<h4 >Ideia Principal</h4>
+			<p class="texto">
+			A ideia principal desse projeto está no futuro, onde varios dos projetos podem necessitar de uma wiki, e também um pouco de prática e para adiquirir conhecimento foi o objetivo principal do projeto.
+			</p>
+
+		</section>
+		
+	</main>
+	<hr class="line-separar2">
+	<footer>
+		<ul class="social">
+			<li>
+				<a href="https://github.com/Na18k">
+					<i class="fab fa-github-square" alt="Logo do GitHub"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/na18_k">
+					<i class="fab fa-twitter-square" alt="Logo do Twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://www.instagram.com/kainanhenriq18/">
+					<i class="fab fa-instagram-square" alt="Logo do Instagram"></i>
+			</a>
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/kainan-henrique-abb073219">
+					<i class="fab fa-linkedin" alt="Logo do LinkedIn"></i>
+				</a>
+			</li>
+		</ul>
+		<ul class="footer-page">
+			<h4>Suporte:</h4>
+			<li>
+				<a href="https://github.com/Na18k/wiki">Documentação</a>
+			</li>
+			<li>
+				<a href="https://github.com/Na18k/Wiki/issues/new">Reporte algúm Problema!</a>
+			</li>
+		</ul>
+	</footer>
+
+	<h6>Copyright &#169 2021 - <span id="ano"></span> Na18k (Kainan Henrique); All Rights Reserved</h6>
+	<script type="text/javascript">
+		var copyright = document.getElementById("ano");
+		var dataAtual = new Date();
+		var ano = dataAtual.getFullYear();
+		copyright.textContent = `${ano}`
+	</script>
+
+	<hr class="line-separar2">
+</body>
+</html>
