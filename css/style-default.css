@@ -1,0 +1,300 @@
+/* * {
+	border: 1px solid red;
+}*/
+html {
+	font-family: Roboto Mono, monospace;
+	background: #0e1212;
+}
+.fixed {
+	position: fixed;
+}
+/* https://www.digitalocean.com/community/tutorials/css-scrollbars-pt */
+
+	/* Works on Firefox */
+	* {
+	  scrollbar-width: thin;
+	  scrollbar-color: #682ae9 rgba(0,0,0,0.5);
+	}
+
+	/* Works on Chrome, Edge, and Safari */
+	*::-webkit-scrollbar {
+	  width: 14px;
+	}
+
+	*::-webkit-scrollbar-track {
+	  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.5));
+	}
+
+	*::-webkit-scrollbar-thumb {
+	  background-color: #682ae9;
+	  border-radius: 20px;
+	  border: 2px solid rgba(0,0,0,0.5);
+	}
+	.scrollbar {
+	  display: block;
+	  width: 10em;
+	  overflow: auto;
+	}
+
+
+
+header, header nav {
+	height: 50px;
+}
+header nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	background: linear-gradient(#0e1212 80%, transparent);
+	width: 100%;
+}
+header nav ul {
+	display: flex;
+	justify-content: space-around;
+	padding: 16px;
+	width: 40%;
+}
+header nav a {
+	color: #682ae9;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 110%;
+	font-weight: bold;
+}
+a {
+	font-size: 1em;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navegar a {
+	font-size: 1.2em;
+}
+a:hover {
+	transition: 400ms;
+	color: gray; 
+}
+.home {
+	padding: 16px;
+}
+
+
+
+.subtexto {
+	color: #555;
+}
+h3, .tituloDestaque {
+	color: #682ae9;
+	font-size: 220%;
+	font-weight: bold;
+}
+h4, .tituloNormal {
+	/*margin-top: 36px;*/
+	color: #682ae9;
+	font-size: 160%;
+}
+.subtitulo {
+	color: #76797e;
+	font-size: 82%;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+.texto {
+	color: #dbdbdb;
+	font-size: 90%;
+	text-align: justify;
+	margin-top: 10px;
+}
+
+main {
+	display: flex;
+	overflow: auto;
+}
+.principal {
+	padding: 10px 40px;
+	width: 75%;
+}
+.navegar {
+	width: 14%;
+	border-right: 1px solid transparent;
+	margin-right: 10px;
+	padding: 10px 10px;
+	overflow: auto;
+}
+.navegar nav {
+	width: 80%;
+}
+.navegar ul, .navegar ul li {
+	width: 100%;
+}
+.navegar a {
+	text-decoration: none;
+	color: #682ae980;
+	font-size: 15px;
+	line-height: 140%;
+}
+.navegar a:hover {
+	color: lightgray;
+	text-decoration: underline;
+}
+.line-separar {
+	width: 2px;
+	background-image: linear-gradient(#00000000 2%, #682ae9, #00000000);
+}
+.line-separar2 {
+	width: 98%;
+	height: 1px;
+	background-image: linear-gradient(90deg, #00000000 2%, #682ae9, #00000000);
+	border-color: transparent;
+}
+.separador {
+	margin: 36px 0 36px 0;
+	width: 98%;
+	height: 1px;
+	background-image: linear-gradient(90deg, #00000000 2%, #682ae960, #00000000);
+	border-color: transparent;
+}
+.codigo {
+	padding: 10px;
+	border-radius: 5px;
+	background: #363636;
+	font-size: 80%;
+	color: #808080;
+	width: 98%;
+	/*height: 120px;*/
+	margin: 10px 0px 10px 0px;
+	text-align: left;
+	resize: vertical;
+	word-wrap: break-word;
+	overflow: auto;
+}
+.tab1 {tab-size: 1;}
+.tab2 {tab-size: 2;}
+pre, .tab4 {tab-size: 4;}
+.tab6 {tab-size: 6;}
+.tab8 {tab-size: 8;}
+.tab10 {tab-size: 10;}
+
+/**/
+
+/*FOOTER*/
+	footer {
+		height: 100px;
+		padding: 40px 10px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.social {
+		display: flex;
+		justify-content: space-around;
+		align-items: center
+	}
+	.social li {
+		margin-left: 10px;
+	}
+	.social i {
+		color: lightgray;
+		font-size: 35px;
+	}
+	.social img {
+		width: 30px;
+		padding: 2px 2px;
+		border: 2px solid #4F4F4F;
+		margin: 0 5px 0 5px;
+	}
+	.social li i:hover {
+		transition: 400ms;
+		color: #682ae9;
+	}
+	.link-footer, .footer-page {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
+	.link-footer, .footer-page {
+		text-align: left;
+		/*list-style: square;*/
+		line-height: 20px;
+	}
+	footer a {
+		/*text-transform: uppercase;*/
+		color: #A9A9A9;
+		font-weight: bold;
+		font-size: 15px;
+		text-decoration: none;
+	}
+	.link-footer a:before, .footer-page a:before {
+		content: "|";
+	}
+	footer a:hover {
+		transition: 300ms;
+		color: #A020F0;
+	}
+	.link-footer a:hover, .footer-page a:hover {
+		content: "|" lightblue;
+	}
+	footer h4 {
+		color: #808080;
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 10px;
+	}
+	h6 {
+		color: rgba(255,255,255,0.2);
+		text-align: center;
+		font-size: 0.8em;
+	}
+
+@media(max-width: 768px) {
+	.fixed {
+		position: initial;
+		background: red;
+	}
+	.navegar {
+		overflow: auto;
+	}
+}
+
+
+
+
+/* =============== Funcionalidades ================= */
+
+.links-funcs-pai {}
+
+.links-funcs-pai li {
+	/*padding: 2px 2px;*/
+	border: 1px solid rgba(104,42,233,0.2);
+	margin: 10px 0 10px 0;
+}
+.links-funcs-pai li:hover {
+	transition: 400ms;
+	border-color: gray;
+	box-shadow: 0 0 8px rgba(104,42,233,0.6);
+}
+.links-funcs-container {
+	padding: 18px;
+	width: 96.6%;
+	height: 100%;
+}
+h4.link-funcs {
+	font-size: 20px;
+	margin-bottom: 6px;
+}
+.link-funcs-desc {
+	font-size: 12px;
+	color: gray;
+}
+.link-funcs-tag {
+	display: flex;
+	flex-direction: row;
+}
+.link-funcs-tag p {
+	width: 10%;
+	background: magenta;
+	color: white;
+	padding: 2px;
+	text-align: center;
+	margin: 6px 10px 0 0;
+	border-radius: 15px;
+}
