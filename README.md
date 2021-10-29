@@ -1,8 +1,9 @@
-# Wiki-Template ![icone](https://user-images.githubusercontent.com/75281033/139472032-62c3900f-3b4e-4876-9cb1-e35d1f1596da.png)
-Um template simples de wiki, quem sabe usada no futuro.
+# Wiki-Template
 
+Um template simples de wiki, quem sabe usada no futuro.
 ## ![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=Na18k/Wiki-Template&title=Visitantes)
 
+> ![icone](https://user-images.githubusercontent.com/75281033/139472793-fe944bad-7ef5-48c6-8e94-7dcc031170c6.png)
 
 > **Página principal:**
 > 
